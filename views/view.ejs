@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %>
+
+<div class="min-vh-100">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="content col-lg-8 col-12 p-4">
+                <h1><%= title %></h1>
+                <p><%= content %></p>
+                <div class=" button-container d-flex align-itmes-center">
+                    <form action="/delete" method = "post" class="mb-2">
+                        <input type="text" name="postId" hidden value="<%= postId %>">
+                        <input style="width: 85%;" class="btn btn-danger fs-5 btn-lg my-1 button-custom-delete"  type="submit" name="delete" value="Delete" style="background-color: #be1c1c;">
+                    </form>
+                    <a href="/edit/<%= postId %>"><input style="width: 85%; background-color: #f1c3a0;" class="btn btn-light fs-5 btn-lg my-2 button-custom" type="button" value="Edit"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<%- include('partials/footer.ejs') %>

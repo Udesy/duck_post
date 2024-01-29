@@ -1,0 +1,19 @@
+{
+  "name": "duck-post",
+  "version": "1.0.0",
+  "description": "Hey Everyone this is a Blog posting site It was build usinh Express.js and EJS.\r <<<<<<< HEAD\r It is a good project to work on and I learned many thing in my way to building this Project.# duck_post\r =======\r It is a good project to work on and I learned many thing in my way to building this Project.\r Before Running code please install all the packages.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node": "^21.6.1",
+    "nodemon": "^3.0.3"
+  }
+}
